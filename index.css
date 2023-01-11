@@ -1,0 +1,30 @@
+
+
+body {
+    background-color: hsl(210, 29%, 25%);
+}
+
+#main {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20vh auto;
+    width: 30%;
+    background-color: hsl(198, 16%, 84%);
+    padding: 2vw;
+    border-radius: 2vw;
+}
+
+.button {
+    cursor: pointer;
+    flex-basis: 100%;
+    text-align: center;
+    background-color: hsl(210, 29%, 25%);
+    color: white;
+    padding: 10px 0;
+    border-radius: 1vw;
+
+}
+
+.category {
+    flex-basis: 60%
+}
